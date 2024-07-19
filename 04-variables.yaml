@@ -1,4 +1,4 @@
-- name : variable 
+- name : variables
   hosts: localhosts
   vars: 
     course: "ansible" 
@@ -6,6 +6,6 @@
     duration : "120hrs" 
   tasks:
    - name : print the information
-     ansible.bulit.debug:
+     ansible.bulitin.debug:
         msg: " hi , we are learning ansible from trainer sivakumar , duration 120 hrs"
 
