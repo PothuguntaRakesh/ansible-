@@ -1,0 +1,11 @@
+- name : variable 
+  hosts: localhosts
+  vars: 
+  course: ansible 
+  trainner : siva kumar
+  duration : 120hrs 
+  tasks:
+   - name : print the information
+     ansible.bulit.debug:
+     msg: " hi , we are learning ansible from traineer sivakumar , duration 120 hrs"
+
