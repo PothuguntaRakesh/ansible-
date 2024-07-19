@@ -4,7 +4,7 @@
     course: "python" 
     trainer : "rakesh"
     duration : "150hrs" 
-    tasks:
+    task:
      - name : print the  override information
        vars:
        course: "ansible"
