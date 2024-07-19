@@ -6,6 +6,6 @@
     duration : "120hrs" 
   tasks:
    - name : print the information
-     ansible.bulitin.debug:
+     ansible.builtin.debug:
         msg: " hi , we are learning ansible from trainer sivakumar , duration 120 hrs"
 
