@@ -1,6 +1,5 @@
 - name : variables from files
   hosts: localhost
-  vars_prompt:
   tasks:
    - name : print the information
      ansible.builtin.debug:
