@@ -2,8 +2,8 @@
   hosts: localhost
   tasks: 
   - name : play-1 and task-1
-  ansible.builtin.debug:
-  msg : " i am learning devops with aws"
+    ansible.builtin.debug:
+      msg : " i am learning devops with aws"
 
 
 - name : play-2
@@ -11,6 +11,6 @@
   tasks: 
   - name : play-2 and task-1
     ansible.builtin.debug:
-    msg : "i am learning devops with aws"
-
+      msg : "i am learning devops with aws"
+ 
 
