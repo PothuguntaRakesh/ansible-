@@ -12,6 +12,6 @@
   tasks:
   - name: check perference
     vars: 
-      wishes :"morning from task variable"
+      wishes  : "morning from task variable"
     ansible.builtin.debug:
      msg: "hello,  good{{wishes}}"
