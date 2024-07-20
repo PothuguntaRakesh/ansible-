@@ -7,5 +7,5 @@
 
 
     - name : say "hello
-      ansible.bulitin.debug:
+      ansible.builtin.debug:
        msg: "hello"   
