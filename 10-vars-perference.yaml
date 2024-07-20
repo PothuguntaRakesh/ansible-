@@ -1,13 +1,13 @@
 - name: variables perference
   hosts: localhost
-  vars:
-    wishes : "morning from play variables"
+  # vars:
+  #   wishes : "morning from play variables"
   vars_files:
    -vars.yaml
-  vars_prompt:
-  - name: wishes
-    prompt: please enter wishes
-    private: false
+  # vars_prompt:
+  # - name: wishes
+  #   prompt: please enter wishes
+  #   private: false
 
   tasks:
   - name: check perference
@@ -15,3 +15,13 @@
       # wishes  : "morning from task variable"
     ansible.builtin.debug:
      msg: "hello,  good{{wishes}}"
+
+
+
+     #1 . arguments
+     #2. task level
+     #3.variable files 
+     # 4 .PROMPT
+     #5. PLAY LEVEL
+     # 6. INVENTORY
+     
