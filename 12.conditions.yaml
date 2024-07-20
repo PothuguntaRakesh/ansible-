@@ -4,7 +4,7 @@
    tasks: 
     - name: check user exists 
       ansible.builtin.command: id Experience
-      ignore_error: true
+      ignore_errors : true
 
 
     - name : say "hello
