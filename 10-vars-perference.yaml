@@ -5,13 +5,13 @@
   vars_files:
    -vars.yaml
   vars_prompt:
-   - name: wishes
-     prompt: please enter wishes
-     private: false
+  - name: wishes
+    prompt: please enter wishes
+    private: false
 
   tasks:
-   - name: check perference
-     vars: 
+  - name: check perference
+    vars: 
       wishes :"morning from task variable"
-     ansible.builtin.debug:
-       msg: "hello  good{{wishes}}"
+    ansible.builtin.debug:
+     msg: "hello  good{{wishes}}"
