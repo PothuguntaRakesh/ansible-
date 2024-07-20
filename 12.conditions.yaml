@@ -1,0 +1,11 @@
+ - name: conditions
+   hosts: web 
+   become: yes
+   tasks: 
+    - name: check user exists 
+      ansible.builtin.command: id Experience
+
+
+    - name : say "hello
+      ansible.bulitin.debug:
+       msg: "hello"   
